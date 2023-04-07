@@ -1,0 +1,161 @@
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* La barre de navigation */
+nav{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  background-color: black;
+  color: #fff;
+  padding: 0 25px;
+}
+nav .gauche{
+  display: flex;
+  flex-wrap:wrap;
+}
+nav .gauche img{
+  padding-top: 5px;
+}
+nav .gauche .onglets{
+  display: flex;
+  flex-wrap:wrap;
+  margin-left: 10px;
+}
+nav .gauche .onglets p{
+  margin-left: 10px;
+  cursor:pointer;
+  color: #909191;
+}
+nav .gauche .onglets p:hover{
+  color: #fff;
+}
+nav .droite{
+  display: flex;
+  flex-wrap:wrap;
+}
+nav .droite p{
+  margin-right: 10px;
+  cursor:pointer;
+}
+
+/* Fin de la barre de navigation */
+
+
+
+
+
+
+
+#imagem {
+  width: 100%;
+ 
+  background-color: #ccc;
+}
+
+#imagem img {
+  background-size: cover;
+    background-position: center center;
+    width: 99%;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgb(146 146 146 / 27%);
+    display: inline-block;
+  image-rendering: crisp-edges;
+}
+
+
+
+p#titulo{
+  font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 13%;
+    left: 3%;}
+
+
+
+
+
+div#play {
+    display: inline-block;
+    color: black;
+    background-color: white;
+    width: 112px;
+    height: 35px;
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+
+
+
+
+div#video-icon {
+    display: inline-block;
+    color: black;
+    background-color: white;
+    width: 112px;
+    height: 35px;
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+/* Les films et séries */
+.films-et-series{
+  background-color: #191a1a;
+  padding: 25px;
+}
+.films-et-series .section{
+  margin-bottom: 55px;
+}
+.films-et-series .section h2{
+  color: #fff;
+}
+.films-et-series .section .list{
+  display:flex;
+  overflow-x: auto;
+} 
+.films-et-series .section a{
+  padding-left: 5px;
+  transition: transform 0.25s;
+}
+.films-et-series .section a:hover{
+  transform:scale(1.05);
+}
+.films-et-series .section a img{
+  height: 140px;
+}
+/* Fin des films et séries */
+
+/* Pied de page */
+footer{
+  background-color: #000;
+  padding: 25px 100px;
+  color: #909191;
+}
+footer .colonnes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* Fin du pied de page */
+
